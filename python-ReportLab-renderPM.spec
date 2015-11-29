@@ -10,6 +10,7 @@ Group:		Libraries/Python
 Source0:	http://www.reportlab.org/daily/renderPM-%{version}-daily-unix.tgz
 # Source0-md5:	c8651574c4ebe2a5abecc2659a35f1bb
 URL:		http://www.reportlab.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.4
 %pyrequires_eq	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
